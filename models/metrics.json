@@ -1,0 +1,664 @@
+{
+  "models": {
+    "linear": {
+      "name": "Linear Regression",
+      "mae": 22265.27,
+      "rmse": 36076.5,
+      "r2": 0.8303
+    },
+    "random_forest": {
+      "name": "Random Forest Regressor",
+      "mae": 18179.73,
+      "rmse": 28109.1,
+      "r2": 0.897
+    }
+  },
+  "top_features": [
+    {
+      "feature": "OverallQual",
+      "importance": 0.5791,
+      "percentage": 57.91
+    },
+    {
+      "feature": "GrLivArea",
+      "importance": 0.1838,
+      "percentage": 18.38
+    },
+    {
+      "feature": "TotalBsmtSF",
+      "importance": 0.0994,
+      "percentage": 9.94
+    },
+    {
+      "feature": "YearBuilt",
+      "importance": 0.0489,
+      "percentage": 4.89
+    },
+    {
+      "feature": "GarageCars",
+      "importance": 0.0313,
+      "percentage": 3.13
+    }
+  ],
+  "actual_vs_predicted": [
+    {
+      "id": 1,
+      "actual": 154500.0,
+      "predicted_linear": 140741.51,
+      "predicted_rf": 140770.0
+    },
+    {
+      "id": 2,
+      "actual": 115000.0,
+      "predicted_linear": 114611.26,
+      "predicted_rf": 110860.75
+    },
+    {
+      "id": 3,
+      "actual": 75500.0,
+      "predicted_linear": 62215.28,
+      "predicted_rf": 80630.33
+    },
+    {
+      "id": 4,
+      "actual": 84500.0,
+      "predicted_linear": 61688.33,
+      "predicted_rf": 80529.89
+    },
+    {
+      "id": 5,
+      "actual": 130000.0,
+      "predicted_linear": 105591.36,
+      "predicted_rf": 118011.47
+    },
+    {
+      "id": 6,
+      "actual": 181000.0,
+      "predicted_linear": 188376.0,
+      "predicted_rf": 189301.0
+    },
+    {
+      "id": 7,
+      "actual": 135000.0,
+      "predicted_linear": 128519.16,
+      "predicted_rf": 133497.38
+    },
+    {
+      "id": 8,
+      "actual": 155000.0,
+      "predicted_linear": 175543.78,
+      "predicted_rf": 162954.25
+    },
+    {
+      "id": 9,
+      "actual": 129000.0,
+      "predicted_linear": 115674.56,
+      "predicted_rf": 119210.34
+    },
+    {
+      "id": 10,
+      "actual": 181134.0,
+      "predicted_linear": 195110.09,
+      "predicted_rf": 205045.52
+    },
+    {
+      "id": 11,
+      "actual": 208900.0,
+      "predicted_linear": 212132.8,
+      "predicted_rf": 209550.68
+    },
+    {
+      "id": 12,
+      "actual": 200500.0,
+      "predicted_linear": 251332.59,
+      "predicted_rf": 189757.5
+    },
+    {
+      "id": 13,
+      "actual": 140000.0,
+      "predicted_linear": 143038.98,
+      "predicted_rf": 140642.75
+    },
+    {
+      "id": 14,
+      "actual": 310000.0,
+      "predicted_linear": 324082.7,
+      "predicted_rf": 304218.45
+    },
+    {
+      "id": 15,
+      "actual": 205000.0,
+      "predicted_linear": 222512.25,
+      "predicted_rf": 230623.88
+    },
+    {
+      "id": 16,
+      "actual": 128500.0,
+      "predicted_linear": 131803.24,
+      "predicted_rf": 136152.0
+    },
+    {
+      "id": 17,
+      "actual": 127000.0,
+      "predicted_linear": 118253.77,
+      "predicted_rf": 122444.16
+    },
+    {
+      "id": 18,
+      "actual": 144000.0,
+      "predicted_linear": 141214.41,
+      "predicted_rf": 146534.39
+    },
+    {
+      "id": 19,
+      "actual": 115000.0,
+      "predicted_linear": 110261.97,
+      "predicted_rf": 122608.02
+    },
+    {
+      "id": 20,
+      "actual": 260000.0,
+      "predicted_linear": 229211.66,
+      "predicted_rf": 231830.56
+    },
+    {
+      "id": 21,
+      "actual": 107000.0,
+      "predicted_linear": 147127.0,
+      "predicted_rf": 150592.75
+    },
+    {
+      "id": 22,
+      "actual": 154000.0,
+      "predicted_linear": 133933.0,
+      "predicted_rf": 143157.75
+    },
+    {
+      "id": 23,
+      "actual": 283463.0,
+      "predicted_linear": 274692.74,
+      "predicted_rf": 283011.58
+    },
+    {
+      "id": 24,
+      "actual": 305000.0,
+      "predicted_linear": 290003.71,
+      "predicted_rf": 306589.02
+    },
+    {
+      "id": 25,
+      "actual": 118858.0,
+      "predicted_linear": 135013.2,
+      "predicted_rf": 130408.36
+    },
+    {
+      "id": 26,
+      "actual": 93500.0,
+      "predicted_linear": 82846.06,
+      "predicted_rf": 93625.25
+    },
+    {
+      "id": 27,
+      "actual": 348000.0,
+      "predicted_linear": 328853.4,
+      "predicted_rf": 320071.33
+    },
+    {
+      "id": 28,
+      "actual": 124900.0,
+      "predicted_linear": 114529.43,
+      "predicted_rf": 125415.51
+    },
+    {
+      "id": 29,
+      "actual": 113000.0,
+      "predicted_linear": 127410.4,
+      "predicted_rf": 133551.48
+    },
+    {
+      "id": 30,
+      "actual": 133000.0,
+      "predicted_linear": 127397.37,
+      "predicted_rf": 132234.55
+    },
+    {
+      "id": 31,
+      "actual": 155900.0,
+      "predicted_linear": 160374.03,
+      "predicted_rf": 144157.55
+    },
+    {
+      "id": 32,
+      "actual": 152000.0,
+      "predicted_linear": 149515.51,
+      "predicted_rf": 159590.02
+    },
+    {
+      "id": 33,
+      "actual": 136500.0,
+      "predicted_linear": 143540.01,
+      "predicted_rf": 150348.83
+    },
+    {
+      "id": 34,
+      "actual": 183900.0,
+      "predicted_linear": 198354.06,
+      "predicted_rf": 169659.95
+    },
+    {
+      "id": 35,
+      "actual": 260000.0,
+      "predicted_linear": 222866.78,
+      "predicted_rf": 228960.9
+    },
+    {
+      "id": 36,
+      "actual": 244000.0,
+      "predicted_linear": 249919.23,
+      "predicted_rf": 240084.4
+    },
+    {
+      "id": 37,
+      "actual": 156500.0,
+      "predicted_linear": 177862.32,
+      "predicted_rf": 163905.0
+    },
+    {
+      "id": 38,
+      "actual": 145000.0,
+      "predicted_linear": 143163.79,
+      "predicted_rf": 141229.0
+    },
+    {
+      "id": 39,
+      "actual": 124000.0,
+      "predicted_linear": 116762.08,
+      "predicted_rf": 131775.0
+    },
+    {
+      "id": 40,
+      "actual": 213500.0,
+      "predicted_linear": 217729.97,
+      "predicted_rf": 228520.77
+    },
+    {
+      "id": 41,
+      "actual": 123000.0,
+      "predicted_linear": 132275.64,
+      "predicted_rf": 116824.0
+    },
+    {
+      "id": 42,
+      "actual": 133000.0,
+      "predicted_linear": 149267.06,
+      "predicted_rf": 140785.37
+    },
+    {
+      "id": 43,
+      "actual": 207000.0,
+      "predicted_linear": 176302.6,
+      "predicted_rf": 173938.25
+    },
+    {
+      "id": 44,
+      "actual": 236000.0,
+      "predicted_linear": 229318.11,
+      "predicted_rf": 230054.15
+    },
+    {
+      "id": 45,
+      "actual": 162900.0,
+      "predicted_linear": 185412.59,
+      "predicted_rf": 175551.27
+    },
+    {
+      "id": 46,
+      "actual": 197900.0,
+      "predicted_linear": 213295.62,
+      "predicted_rf": 205036.25
+    },
+    {
+      "id": 47,
+      "actual": 337500.0,
+      "predicted_linear": 333801.6,
+      "predicted_rf": 333589.32
+    },
+    {
+      "id": 48,
+      "actual": 230000.0,
+      "predicted_linear": 235219.26,
+      "predicted_rf": 222093.35
+    },
+    {
+      "id": 49,
+      "actual": 132000.0,
+      "predicted_linear": 115103.31,
+      "predicted_rf": 118149.71
+    },
+    {
+      "id": 50,
+      "actual": 145000.0,
+      "predicted_linear": 131106.31,
+      "predicted_rf": 138534.25
+    },
+    {
+      "id": 51,
+      "actual": 250000.0,
+      "predicted_linear": 224782.65,
+      "predicted_rf": 214665.93
+    },
+    {
+      "id": 52,
+      "actual": 67000.0,
+      "predicted_linear": 47899.61,
+      "predicted_rf": 66722.5
+    },
+    {
+      "id": 53,
+      "actual": 200624.0,
+      "predicted_linear": 264613.35,
+      "predicted_rf": 236347.49
+    },
+    {
+      "id": 54,
+      "actual": 136000.0,
+      "predicted_linear": 141995.75,
+      "predicted_rf": 155621.02
+    },
+    {
+      "id": 55,
+      "actual": 86000.0,
+      "predicted_linear": 44908.41,
+      "predicted_rf": 66703.39
+    },
+    {
+      "id": 56,
+      "actual": 144000.0,
+      "predicted_linear": 156403.92,
+      "predicted_rf": 151665.97
+    },
+    {
+      "id": 57,
+      "actual": 118500.0,
+      "predicted_linear": 126026.91,
+      "predicted_rf": 124122.5
+    },
+    {
+      "id": 58,
+      "actual": 276000.0,
+      "predicted_linear": 296935.59,
+      "predicted_rf": 357407.97
+    },
+    {
+      "id": 59,
+      "actual": 360000.0,
+      "predicted_linear": 333201.12,
+      "predicted_rf": 348301.8
+    },
+    {
+      "id": 60,
+      "actual": 151000.0,
+      "predicted_linear": 138690.12,
+      "predicted_rf": 174926.64
+    },
+    {
+      "id": 61,
+      "actual": 113000.0,
+      "predicted_linear": 140297.99,
+      "predicted_rf": 133071.51
+    },
+    {
+      "id": 62,
+      "actual": 177500.0,
+      "predicted_linear": 190817.66,
+      "predicted_rf": 175459.04
+    },
+    {
+      "id": 63,
+      "actual": 132500.0,
+      "predicted_linear": 135036.59,
+      "predicted_rf": 137940.5
+    },
+    {
+      "id": 64,
+      "actual": 140000.0,
+      "predicted_linear": 165994.95,
+      "predicted_rf": 156194.23
+    },
+    {
+      "id": 65,
+      "actual": 202500.0,
+      "predicted_linear": 254905.0,
+      "predicted_rf": 198298.6
+    },
+    {
+      "id": 66,
+      "actual": 108480.0,
+      "predicted_linear": 104111.84,
+      "predicted_rf": 115109.75
+    },
+    {
+      "id": 67,
+      "actual": 196000.0,
+      "predicted_linear": 239765.8,
+      "predicted_rf": 189187.68
+    },
+    {
+      "id": 68,
+      "actual": 197000.0,
+      "predicted_linear": 225154.64,
+      "predicted_rf": 203438.63
+    },
+    {
+      "id": 69,
+      "actual": 154900.0,
+      "predicted_linear": 147190.49,
+      "predicted_rf": 120897.3
+    },
+    {
+      "id": 70,
+      "actual": 147000.0,
+      "predicted_linear": 112916.49,
+      "predicted_rf": 109856.7
+    },
+    {
+      "id": 71,
+      "actual": 135500.0,
+      "predicted_linear": 116311.46,
+      "predicted_rf": 133103.0
+    },
+    {
+      "id": 72,
+      "actual": 140000.0,
+      "predicted_linear": 157503.49,
+      "predicted_rf": 139370.18
+    },
+    {
+      "id": 73,
+      "actual": 143500.0,
+      "predicted_linear": 160773.44,
+      "predicted_rf": 150319.57
+    },
+    {
+      "id": 74,
+      "actual": 241500.0,
+      "predicted_linear": 220915.19,
+      "predicted_rf": 152905.35
+    },
+    {
+      "id": 75,
+      "actual": 143000.0,
+      "predicted_linear": 126649.64,
+      "predicted_rf": 131982.5
+    },
+    {
+      "id": 76,
+      "actual": 142500.0,
+      "predicted_linear": 127948.32,
+      "predicted_rf": 129192.08
+    },
+    {
+      "id": 77,
+      "actual": 66500.0,
+      "predicted_linear": 100241.08,
+      "predicted_rf": 112973.79
+    },
+    {
+      "id": 78,
+      "actual": 68400.0,
+      "predicted_linear": 103872.86,
+      "predicted_rf": 106119.5
+    },
+    {
+      "id": 79,
+      "actual": 102776.0,
+      "predicted_linear": 91764.66,
+      "predicted_rf": 108768.04
+    },
+    {
+      "id": 80,
+      "actual": 120000.0,
+      "predicted_linear": 126703.52,
+      "predicted_rf": 126487.49
+    },
+    {
+      "id": 81,
+      "actual": 153575.0,
+      "predicted_linear": 140078.21,
+      "predicted_rf": 125323.36
+    },
+    {
+      "id": 82,
+      "actual": 277000.0,
+      "predicted_linear": 222369.48,
+      "predicted_rf": 220792.75
+    },
+    {
+      "id": 83,
+      "actual": 242000.0,
+      "predicted_linear": 249976.26,
+      "predicted_rf": 211130.25
+    },
+    {
+      "id": 84,
+      "actual": 438780.0,
+      "predicted_linear": 393580.61,
+      "predicted_rf": 433214.22
+    },
+    {
+      "id": 85,
+      "actual": 165000.0,
+      "predicted_linear": 157027.72,
+      "predicted_rf": 151119.75
+    },
+    {
+      "id": 86,
+      "actual": 115000.0,
+      "predicted_linear": 90946.48,
+      "predicted_rf": 114144.0
+    },
+    {
+      "id": 87,
+      "actual": 145000.0,
+      "predicted_linear": 140507.35,
+      "predicted_rf": 141022.58
+    },
+    {
+      "id": 88,
+      "actual": 127500.0,
+      "predicted_linear": 140502.17,
+      "predicted_rf": 141450.75
+    },
+    {
+      "id": 89,
+      "actual": 175900.0,
+      "predicted_linear": 176461.25,
+      "predicted_rf": 179166.08
+    },
+    {
+      "id": 90,
+      "actual": 165000.0,
+      "predicted_linear": 207390.04,
+      "predicted_rf": 160490.67
+    },
+    {
+      "id": 91,
+      "actual": 311872.0,
+      "predicted_linear": 246944.7,
+      "predicted_rf": 247342.45
+    },
+    {
+      "id": 92,
+      "actual": 144000.0,
+      "predicted_linear": 160110.56,
+      "predicted_rf": 136330.46
+    },
+    {
+      "id": 93,
+      "actual": 465000.0,
+      "predicted_linear": 364373.21,
+      "predicted_rf": 400314.68
+    },
+    {
+      "id": 94,
+      "actual": 85000.0,
+      "predicted_linear": 105336.6,
+      "predicted_rf": 117070.58
+    },
+    {
+      "id": 95,
+      "actual": 137500.0,
+      "predicted_linear": 199095.79,
+      "predicted_rf": 140507.25
+    },
+    {
+      "id": 96,
+      "actual": 140000.0,
+      "predicted_linear": 140311.7,
+      "predicted_rf": 144164.2
+    },
+    {
+      "id": 97,
+      "actual": 197000.0,
+      "predicted_linear": 208200.71,
+      "predicted_rf": 192337.49
+    },
+    {
+      "id": 98,
+      "actual": 185750.0,
+      "predicted_linear": 175848.25,
+      "predicted_rf": 179669.5
+    },
+    {
+      "id": 99,
+      "actual": 260000.0,
+      "predicted_linear": 263424.92,
+      "predicted_rf": 226283.85
+    },
+    {
+      "id": 100,
+      "actual": 124500.0,
+      "predicted_linear": 106685.05,
+      "predicted_rf": 119219.25
+    }
+  ],
+  "metadata": {
+    "total_samples": 1460,
+    "train_samples": 1168,
+    "test_samples": 292,
+    "train_ratio": 0.8,
+    "test_ratio": 0.2,
+    "random_state": 42,
+    "features": [
+      "GrLivArea",
+      "OverallQual",
+      "BedroomAbvGr",
+      "FullBath",
+      "YearBuilt",
+      "GarageCars",
+      "TotalBsmtSF",
+      "Neighborhood"
+    ],
+    "target": "SalePrice"
+  }
+}
